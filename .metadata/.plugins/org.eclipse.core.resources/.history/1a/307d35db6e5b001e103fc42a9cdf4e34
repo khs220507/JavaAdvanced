@@ -1,0 +1,5 @@
+package JavaAdvanced.InterfaceEx.generic.printer;
+
+public class MyConsumer {
+
+}

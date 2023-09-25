@@ -1,0 +1,5 @@
+package JavaAdvanced.InterfaceEx.generic.practice;
+
+public interface MyBook {
+
+}

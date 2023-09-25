@@ -1,0 +1,8 @@
+package JavaAdvanced.InterfaceEx.cook;
+
+public class myCook {
+	
+	myCook c = new myCook();
+	
+
+}

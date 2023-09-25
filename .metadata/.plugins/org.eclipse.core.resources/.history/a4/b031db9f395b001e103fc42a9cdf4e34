@@ -1,0 +1,24 @@
+package JavaAdvanced.InterfaceEx.cook;
+
+public class myCook implements 양식가능한{
+	
+	myCook c = new myCook();
+
+	@Override
+	public String 스파게티만들기() {
+		// TODO Auto-generated method stub
+		return 오일파스타;
+	}
+
+	@Override
+	public String 피자만들기() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String 돈까스만들기() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

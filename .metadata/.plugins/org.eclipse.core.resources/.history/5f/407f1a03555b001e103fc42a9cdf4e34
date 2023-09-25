@@ -1,0 +1,5 @@
+package JavaAdvanced.InterfaceEx.practice;
+
+public interface Function {
+
+}

@@ -1,0 +1,11 @@
+package JavaAdvanced.InterfaceEx.generic;
+
+public class GListTest {
+	
+	public static void main(String[] args) {
+		
+		
+		GList<Score> list = new GList<>()
+	}
+
+}

@@ -1,0 +1,10 @@
+package JavaAdvanced.InterfaceEx.generic;
+
+public class OListTest {
+	
+	public static void main(String[] args) {
+		
+		OList list = new OList();
+	}
+
+}

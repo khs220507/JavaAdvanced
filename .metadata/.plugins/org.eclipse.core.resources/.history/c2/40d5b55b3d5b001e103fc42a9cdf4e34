@@ -1,0 +1,12 @@
+package JavaAdvanced.InterfaceEx.cook;
+
+import java.util.ArrayList;
+
+public class myTest {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> listK = new ArrayList();
+	}
+
+}

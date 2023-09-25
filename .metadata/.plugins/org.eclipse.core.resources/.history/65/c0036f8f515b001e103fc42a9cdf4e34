@@ -1,0 +1,5 @@
+package JavaAdvanced.InterfaceEx.cast;
+
+public class MyComparable {
+	public int compareTo(Object othe)
+}

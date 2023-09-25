@@ -1,0 +1,9 @@
+package JavaAdvanced.InterfaceEx.myarrays;
+
+public class Score {
+	int kor;
+	int eng;
+	
+	
+
+}

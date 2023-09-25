@@ -1,0 +1,24 @@
+package JavaAdvanced.InterfaceEx.practice;
+
+public class Galaxy extends Phone implements Function{
+
+	@Override
+	public String 전화하기() {
+		System.out.println("헬로우");
+		return "hello";
+	}
+
+	@Override
+	public String 문자하기() {
+		System.out.println("카톡~");
+		return "tok";
+	}
+
+	@Override
+	public String 유튜브시청() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

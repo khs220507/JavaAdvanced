@@ -1,0 +1,9 @@
+package JavaAdvanced.InterfaceEx.generic.printer;
+
+public class GThreeDPrinter<T> {
+	
+	private T material;
+	
+
+
+}

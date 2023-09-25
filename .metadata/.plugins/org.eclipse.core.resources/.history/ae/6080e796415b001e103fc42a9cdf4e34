@@ -1,0 +1,15 @@
+package JavaAdvanced.InterfaceEx.myarrays;
+
+public class ScoreTest {
+	public static void main(String[] args) {
+		Score[] list = new Score[4];
+		list[0] = new Score(100, 90);
+		list[1] = new Score(80, 90);
+		list[2] = new Score(90, 90);
+		list[3] = new Score(60, 70);	
+	}
+	
+	for(Score score : list) {
+		System.out.println(score);
+	}
+}

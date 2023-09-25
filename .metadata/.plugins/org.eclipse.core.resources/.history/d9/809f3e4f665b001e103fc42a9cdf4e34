@@ -1,0 +1,13 @@
+package JavaAdvanced.InterfaceEx.generic.printer;
+
+public class ThreeDPrintTest {
+	
+	public static void main(String[] args) {
+		ThreeDPrinterPlastic p = new ThreeDPrinterPlastic();
+		p.setMaterial(new Plastic());
+		p.print();
+		
+		ThreeDPrinterPowder 2 = new ThreeDPrinterPowder();
+	}
+
+}

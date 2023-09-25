@@ -1,0 +1,17 @@
+package JavaAdvanced.InterfaceEx.generic.printer;
+
+public class ThreeDPrinterPowder {
+	private Plastic material;
+
+	public Plastic getMaterial() {
+		return material;
+	}
+
+	public void setMaterial(Powder material) {
+		this.material = material;
+	}
+	
+	public void print() {
+		System.out.println("3D PRINT USE : + " + material);
+	}
+}

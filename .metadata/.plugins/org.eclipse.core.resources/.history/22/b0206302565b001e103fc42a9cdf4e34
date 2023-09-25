@@ -1,0 +1,10 @@
+package JavaAdvanced.InterfaceEx.practice;
+
+public interface Function {
+	public void 전화하기() {
+		System.out.println("따르릉");
+		return "따르릉";
+	};
+    public String 문자하기();
+    public String 유튜브시청(); 
+}

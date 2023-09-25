@@ -1,0 +1,7 @@
+package JavaAdvanced.InterfaceEx.practice;
+
+public class Galaxy extends Phone implements Function{
+
+
+	
+}

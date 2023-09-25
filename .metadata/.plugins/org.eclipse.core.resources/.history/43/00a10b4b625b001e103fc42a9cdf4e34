@@ -1,0 +1,13 @@
+package JavaAdvanced.InterfaceEx.generic;
+
+public class OListTest {
+	
+	public static void main(String[] args) {
+		
+		OList list = new OList();
+		list.add(new Score("허재혁", 100, 90));
+		list.add(new Score("표준태", 99, 90));
+		list.add(new Score("김길동", 100, 90));
+	}
+
+}

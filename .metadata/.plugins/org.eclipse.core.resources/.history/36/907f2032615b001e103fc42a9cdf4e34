@@ -1,0 +1,6 @@
+package JavaAdvanced.InterfaceEx.practice;
+
+
+interface Function{
+    public String call();
+}

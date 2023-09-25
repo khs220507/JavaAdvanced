@@ -1,0 +1,9 @@
+package JavaAdvanced.InterfaceEx.myarrays;
+
+public class MyArrays {
+	
+	public static void sort(Object[] arr) {
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package JavaAdvanced.InterfaceEx.generic.arrayList;
+
+public class MyArrayList {
+	
+	private Object[] nums;
+	private int current;
+	
+	public MyArrayList() {
+		nums = new Object[5];
+		current = 0;
+	}
+
+}

@@ -1,0 +1,10 @@
+package JavaAdvanced.InterfaceEx.generic.printer;
+
+public class Powder {
+	String content = "Poweder";
+
+	@Override
+	public String toString() {
+		return "Poweder [content=" + content + "]";
+	}
+}
