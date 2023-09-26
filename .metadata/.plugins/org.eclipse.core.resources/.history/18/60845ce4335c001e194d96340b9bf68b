@@ -1,0 +1,14 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+import java.util.function.Consumer;
+
+public class ConsumerTest {
+	
+	public static void main(String[] args) {
+		Consumer<String> c = str -> System.out.println("진짜 " + str);
+		c.accept("람다식 좋아요");
+		Consumer<String> c2 = new Consumer<>() {
+			
+		}
+	}
+}

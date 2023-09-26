@@ -1,0 +1,15 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+interface StarInterface{
+	String printStar(int n);
+}
+
+public class StarInterfaceEx {
+	public static void main(String[] args) {
+		
+		// 01.
+		class StartInterfaceImp implements StarInterface{
+			
+		}
+	}
+}

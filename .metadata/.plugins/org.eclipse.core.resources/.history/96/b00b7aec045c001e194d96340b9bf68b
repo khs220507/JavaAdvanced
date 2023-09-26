@@ -1,0 +1,7 @@
+package JavaAdvanced.InterfaceEx.test02;
+
+public class Food {
+	
+	String name;
+
+}

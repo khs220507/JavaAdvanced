@@ -1,0 +1,9 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class lamdaFunctionPractice {
+	
+	int max(int a, int b) {
+		
+	}
+
+}

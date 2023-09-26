@@ -1,0 +1,23 @@
+package JavaAdvanced.InterfaceEx.lamda.sort;
+
+public class Moving {
+	String name;
+	String code;
+	int power;
+	
+	public Moving(String name, String code, int power) {
+		super();
+		this.name = name;
+		this.code = code;
+		this.power = power;
+	}
+	public Moving() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Moving [name=" + name + ", code=" + code + ", power=" + power + "]";
+	}
+
+	
+}

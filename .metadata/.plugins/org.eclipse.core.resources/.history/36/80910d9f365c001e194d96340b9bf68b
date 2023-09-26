@@ -1,0 +1,7 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class PredicateTest {
+	public static void main(String[] args) {
+		
+	}
+}

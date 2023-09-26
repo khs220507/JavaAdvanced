@@ -1,0 +1,8 @@
+package JavaAdvanced.InterfaceEx.test;
+
+public class Toy {
+	
+	String name;
+	int price;
+
+}

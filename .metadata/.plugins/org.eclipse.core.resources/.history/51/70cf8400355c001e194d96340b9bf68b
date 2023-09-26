@@ -1,0 +1,9 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class SupplierTest {
+	public static void main(String[] args) {
+		
+		Supplier<Integer> = () -> (int)(Math.random()*5);
+
+	}
+}

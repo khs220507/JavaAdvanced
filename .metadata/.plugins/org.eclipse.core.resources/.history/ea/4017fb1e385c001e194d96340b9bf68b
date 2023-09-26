@@ -1,0 +1,20 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+import java.util.function.Function;
+
+public class FunctionTest {
+	public static void main(String[] args) {
+		Function<Integer, Integer> f1 = num -> num*2;
+		int result1 = f1.apply(10);
+		System.out.println(result1);
+		
+		Function<Integer, Integer> f2 = new Function<>() {
+			
+			@Override
+			public Integer apply(Integer t) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+	}
+}

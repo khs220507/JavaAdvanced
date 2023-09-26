@@ -1,0 +1,5 @@
+package JavaAdvanced.InterfaceEx.test02;
+
+public class Pasta extends Food {
+
+}

@@ -1,0 +1,6 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class RunnableTest {
+	Runnable r = () -> System.out.println("람다식 좋아요");
+	r.run();
+}

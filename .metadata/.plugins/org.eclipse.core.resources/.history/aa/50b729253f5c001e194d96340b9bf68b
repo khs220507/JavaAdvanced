@@ -1,0 +1,13 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+import java.util.function.Supplier;
+
+public class SupplierSubmit {
+	public static void main(String[] args) {
+		Supplier<String> s = () -> {
+			System.out.println("물을 끓인다.");
+			System.out.println("야채를 넣는다.");
+			System.out.println("고기를 넣는다.");
+		};
+	}
+}

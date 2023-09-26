@@ -1,0 +1,5 @@
+package JavaAdvanced.InterfaceEx.test;
+
+public class Car {
+String name
+}

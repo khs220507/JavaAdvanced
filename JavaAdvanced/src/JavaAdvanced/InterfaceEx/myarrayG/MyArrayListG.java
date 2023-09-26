@@ -1,4 +1,6 @@
-package java2.generic.arraylist;
+package JavaAdvanced.InterfaceEx.myarrayG;
+
+import JavaAdvanced.InterfaceEx.generic.myarrayG.MyConsumerG;
 
 public class MyArrayListG<T> {
 

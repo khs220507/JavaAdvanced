@@ -1,0 +1,15 @@
+package JavaAdvanced.InterfaceEx.test;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		ToyBox<Car> box = new ToyBox<>();
+		
+		box.add(new Car("아반떼"));
+		box.add(new Car("코나"));
+		box.add(new Car("렉서스"));
+		
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class RunnableSubmit {
+	
+	public static void main(String[] args) {
+		
+		Runnable
+		
+	}
+
+}

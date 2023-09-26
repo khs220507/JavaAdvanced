@@ -1,0 +1,9 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class FunctionSubmit {
+	public static void main(String[] args) {
+		Function<Integer, Integer> f = num -> {
+			
+		}
+	}
+}

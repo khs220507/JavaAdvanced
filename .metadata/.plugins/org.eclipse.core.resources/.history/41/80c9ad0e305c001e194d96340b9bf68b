@@ -1,0 +1,16 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class RunnableTest {
+	public static void main(String[] args) {
+		Runnable r = () -> System.out.println("람다식 좋아요");
+		r.run();
+		
+		Runnable r2 = new Runnable() {
+		public void run() {
+			System.out.println("Runnable 인터페이스를 익명으로 구현한다.");
+
+		}};
+			
+		
+	}
+}

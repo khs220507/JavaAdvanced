@@ -1,0 +1,8 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+public class ConsumerSubmit {
+	
+	public static void main(String[] args) {
+		
+	}
+}

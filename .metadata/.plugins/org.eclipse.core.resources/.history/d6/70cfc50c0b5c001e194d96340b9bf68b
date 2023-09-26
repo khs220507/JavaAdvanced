@@ -1,0 +1,29 @@
+package JavaAdvanced.InterfaceEx.lamda;
+
+import java.util.ArrayList;
+
+public class ForEachTest {
+	
+	public static void main(String[] args) {
+		
+		ArrayList<String> list = new ArrayList<>();
+		list.add("김현수0");
+		list.add("김현수1");
+		list.add("김현수2");
+		list.add("김현수3");
+		list.add("김현수4");
+		list.add("김현수5");
+		
+		for(int i=0; i<list.size(); i++) {
+			System.out.println(list.get(i));
+		}
+		
+		System.out.println("----");
+		
+		for(String name : list) {
+			System.out.println(name);
+		}
+		
+	}
+
+}
