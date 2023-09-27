@@ -13,7 +13,6 @@ public class BookTest {
 		Stream<Book> stream = list.stream();
 		stream.filter(book -> book.getPrice()>=2000).forEach(item -> System.out.println(item.getName()));
 		
-		System.out.println("정렬==>");
 		stream = list.stream();
 		stream.sorted((o1,o2)->o1.getPrice()-o2.getPrice()).forEach(item -> System.out.println(item.getName()));
 			

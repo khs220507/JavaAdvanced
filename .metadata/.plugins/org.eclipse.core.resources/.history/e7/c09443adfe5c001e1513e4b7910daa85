@@ -1,0 +1,10 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+public class Customer {
+	
+	String id;
+	String name;
+	String grade;
+	int point;
+
+}

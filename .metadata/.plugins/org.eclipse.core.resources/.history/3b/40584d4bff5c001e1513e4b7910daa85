@@ -1,0 +1,14 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+import java.util.ArrayList;
+
+public class CustomerTest {
+	public static void main(String[] args) {
+		ArrayList<Customer> list = new ArrayList<>();
+		list.add(new Customer("khs", "김현수", "S", 100));
+		list.add(new Customer("pjt", "표준태", "A", 99));
+		list.add(new Customer("kdy", "곽단야", "B", 98));
+		
+		Stream<Customer> stream = list.stream();
+	};
+}

@@ -1,0 +1,20 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+public class CustomerTest {
+	public static void main(String[] args) {
+		ArrayList<Customer> list = new ArrayList<>();
+		list.add(new Customer("khs", "김현수", "S", 100));
+		list.add(new Customer("khp", "김화평", "S", 100));
+		list.add(new Customer("pjt", "표준태", "A", 99));
+		list.add(new Customer("kdy", "곽단야", "B", 98));
+		
+		Stream<Customer> stream = list.stream();
+		stream.filter(c->c.getGrade().equals("S")).forEach(i -> System.out.println(i.name));
+		System.out.println("정렬후==>");
+		stream = list.stream();
+		stream.sorted((o1, o2)-> o1.getPoint()-o2.getPoint()).forEach(item -> System.out.println(item.getName()));
+	};
+}
