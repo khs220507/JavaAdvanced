@@ -1,0 +1,20 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+import java.io.BufferedReader;
+import java.util.ArrayList;
+
+public class Test5 {
+	
+	public static void main(String[] args) {
+
+		
+		BufferedReader reader = new BufferedReader ( new FileReader("src/JavaAdvanced/InterfaceEx/stream/test.txt"));
+		ArrayList<String> list = new ArrayList<>();
+		
+		String str="";
+		while( ( str = reader.readLine())  != null ) {
+			list.add( str);			
+		}
+	}
+
+}

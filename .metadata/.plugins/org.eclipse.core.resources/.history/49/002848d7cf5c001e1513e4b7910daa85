@@ -1,0 +1,79 @@
+package JavaAdvanced.InterfaceEx.lamda2;
+
+import java.util.Arrays;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+
+public class Test {
+	public static void main(String[] args) {
+		Runnable r = () -> System.out.println("람다식 시작");
+		
+		class A implements Runnable{
+
+			@Override
+			public void run() {
+				System.out.println("람다식 시작");
+			}
+		}
+		
+		A a = new A();
+		a.run();
+		
+		
+		Runnable r1 = new Runnable() {
+			
+			@Override
+			public void run() {
+				System.out.println("람다식 시작");
+			}
+		};
+		
+		r1.run();
+		
+		
+		Runnable r2 = () -> {
+			String[] todo = {
+					"산책",
+					"람다식 연습",
+					"매서드 연습"	
+			};
+			System.out.println(Arrays.toString(todo));
+		};
+		
+		r.run();
+		r2.run();
+		
+		Consumer<Integer> c = money -> {
+			int 소고기 = 15000;
+			int 떡  = 2000;
+			money -= 소고기;
+			money -= 떡;
+			
+		};
+		
+		c.accept(null);
+		
+		Supplier<String> s = () -> {
+			System.out.println("떡국을 끓인다.");
+			return "떡국";
+		};
+		String food = s.get();
+		System.out.println(food);
+		
+		Predicate<String> p = foodName -> {
+			if(foodName.equals("떡국")) {
+				return true;
+			}
+			return false;
+		};
+		
+		boolean result1 = p.test("떡꾹");
+		
+		
+		Funciton<Integer, int[]> func = num -> {
+			
+		};
+		
+	}
+}

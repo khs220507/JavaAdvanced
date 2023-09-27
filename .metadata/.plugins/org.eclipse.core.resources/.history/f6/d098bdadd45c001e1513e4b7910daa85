@@ -1,0 +1,18 @@
+package JavaAdvanced.InterfaceEx.lamda2;
+
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+		
+		BiConsumer<Integer, Integer> m = (x, y) -> {
+			for(int i= x, i<=y; i++) {
+				
+			}
+		};
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+public class Test2 {
+	
+	public static void main(String[] args) {
+		
+		
+		// String[] test = {"one","two"};
+		String[] arr = new String[] {"one","two","three"};
+		
+	}
+
+}

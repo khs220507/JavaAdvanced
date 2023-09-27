@@ -1,0 +1,11 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+public class Test1 {
+	
+	public static void main(String[] args) {
+		
+		HashSet<Integer> lotts = new HashSet<Integer>();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package JavaAdvanced.InterfaceEx.collection;
+
+import java.util.List;
+
+public class Test {
+	List<String> list = null;
+	ArrayList<String> alist = new ArrayList<>();
+	alist.add("one");
+	alist.add("two");
+	alist.add("three");
+	
+	
+
+}

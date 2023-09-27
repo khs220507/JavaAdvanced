@@ -1,0 +1,20 @@
+package JavaAdvanced.InterfaceEx.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Test {
+	public static void main(String[] args) {
+		
+	
+	
+	List<String> list = null;
+	ArrayList<String> alist = new ArrayList<>();
+	
+	alist.add("one");
+	alist.add("two");
+	alist.add("three");
+	}
+	
+
+}

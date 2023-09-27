@@ -1,0 +1,11 @@
+package JavaAdvanced.InterfaceEx.collection;
+
+import java.util.Scanner;
+
+public class SimplePro {
+	
+	Scanner sc = new Scanner(System.in);
+	private void sysout("계산기 프로그램") {
+	}
+
+}

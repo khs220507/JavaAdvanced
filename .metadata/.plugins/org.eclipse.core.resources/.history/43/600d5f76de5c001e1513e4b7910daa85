@@ -1,0 +1,5 @@
+package JavaAdvanced.InterfaceEx.collection;
+
+public class LGCalculator implements CalculatorI {
+
+}

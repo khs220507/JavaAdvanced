@@ -1,0 +1,16 @@
+package JavaAdvanced.InterfaceEx.lamda2;
+
+public class Test {
+	public static void main(String[] args) {
+		Runnable r = () -> System.out.println("람다식 시작");
+		Runnable r2 = () -> {
+			String[] str = {
+					"산책",
+					"람다식 연습",
+					"매서드 연습"
+					
+			};
+		};
+		
+	}
+}

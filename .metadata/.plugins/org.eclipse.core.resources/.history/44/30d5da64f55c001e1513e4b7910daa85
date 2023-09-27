@@ -1,0 +1,11 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+public class Test3 {
+	ArrayList<String> list = new ArrayList<>();
+	
+	list.add("hi");
+	list.add("hello");
+	list.add("hello");		
+	list.add("bye");
+	list.add("hello");
+}

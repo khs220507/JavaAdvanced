@@ -1,0 +1,46 @@
+package JavaAdvanced.InterfaceEx.lamda2;
+
+import java.util.Scanner;
+import java.util.function.BiConsumer;
+import java.util.function.BiFunction;
+import java.util.function.BiPredicate;
+import java.util.function.Consumer;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(Systemo);
+		
+		BiConsumer<Integer, Integer> m1 = (x, y) -> {
+			for(int i= x; i<=y; i++) {
+				for(int j=1; j<=9; j++) {
+					System.out.println(i*j);
+				}
+			}
+		};
+		
+		m1.accept(3, 6);
+		
+		BiFunction<Integer, Integer, Integer> m2 = (x, y) ->{
+			int result = x*y;
+			return result; 
+		};
+		
+		int result_m2 = m2.apply(3, 6);
+		System.out.println(result_m2);
+		
+		BiPredicate<Integer, Integer> m3 = (x, y) -> {
+			int myresult = 100;
+			if(myresult==x*y) {
+				return true;
+			} else {
+				return false;
+			}
+		};
+		
+		boolean result3 = m3.test(10, 10);
+		System.out.println(result3);
+		
+	}
+}

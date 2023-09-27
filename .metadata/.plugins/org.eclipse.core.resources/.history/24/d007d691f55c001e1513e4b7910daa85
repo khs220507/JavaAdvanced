@@ -1,0 +1,20 @@
+package JavaAdvanced.InterfaceEx.stream;
+
+import java.util.ArrayList;
+
+public class Test3 {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> list = new ArrayList<>();
+
+		list.add("hi");
+		list.add("hello");
+		list.add("hello");
+		list.add("bye");
+		list.add("hello");
+		
+		Stream<String> stream1 = list.stream();
+		
+	}
+}

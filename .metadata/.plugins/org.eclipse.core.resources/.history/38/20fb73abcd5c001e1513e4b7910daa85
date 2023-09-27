@@ -1,0 +1,18 @@
+package JavaAdvanced.InterfaceEx.lamda2;
+
+import java.util.Arrays;
+
+public class Test {
+	public static void main(String[] args) {
+		Runnable r = () -> System.out.println("람다식 시작");
+		Runnable r2 = () -> {
+			String[] todo = {
+					"산책",
+					"람다식 연습",
+					"매서드 연습"	
+			};
+			System.out.println(Arrays.toString(todo));
+		};
+		
+	}
+}
